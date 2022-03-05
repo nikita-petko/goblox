@@ -8,13 +8,11 @@ on:
       - "pkg/**"
       - ".github/workflows/**"
       - "go.mod"
-      - "main.go"
   pull_request:
     paths:
       - "pkg/**"
       - ".github/workflows/**"
       - "go.mod"
-      - "main.go"
 
 jobs:
   production-build-linux:
